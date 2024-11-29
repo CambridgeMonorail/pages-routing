@@ -51,7 +51,7 @@ jobs:
 
       - name: Build project
         run: |
-          export BASE_URL='/react-weapons-of-choice/'
+          export BASE_URL='/pages-routing/'
           export DEBUG='true'
           pnpm exec nx build demo --configuration=production --base=$BASE_URL
 
