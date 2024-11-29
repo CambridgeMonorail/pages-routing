@@ -87,6 +87,14 @@ And join the Nx community:
 - [Our Youtube channel](https://www.youtube.com/@nxdevtools)
 - [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
 
+## Project Wiki
+
+For more detailed information about the project, please visit our [Wiki](https://github.com/your-repo/wiki).
+
+## Issue Tracker
+
+If you encounter any issues or have any suggestions, please report them on our [Issue Tracker](https://github.com/your-repo/issues).
+
 ## Available Scripts
 
 In the project directory, you can run:
