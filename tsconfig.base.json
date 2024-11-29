@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@pages-routing-test/shared": ["libs/shared/src"], // Updated to point to directory
+      "@pages-routing-test/shared": ["libs/shared/src"], 
       "@pages-routing-test/shared/*": ["libs/shared/src/*"]
     }
   },
