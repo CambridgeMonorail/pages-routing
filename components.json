@@ -10,7 +10,7 @@
       "cssVariables": true
     },
     "aliases": {
-      "components": "@pages-routing-test/shared/components",
-      "utils": "@pages-routing-test/shared/utils"
+      "components": "@pages-routing-test/shared",
+      "utils": "@pages-routing-test/shared"
     }
   }
