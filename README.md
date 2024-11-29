@@ -1,18 +1,25 @@
 # PagesRoutingTest
 
-<a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
+This repository is intended to test and validate the up-to-date configuration for a React integrated monorepo built with Nrwl Nx, Tailwind CSS, and shadcn components. The primary focus is to implement and validate the best approach to routing with React Router that works both locally (running on localhost) and when deployed to a GitHub Pages subdirectory for the project `pages-routing`.
 
-✨ Your new, shiny [Nx workspace](https://nx.dev) is almost ready ✨.
+## Project Structure
 
-[Learn more about this workspace setup and its capabilities](https://nx.dev/getting-started/tutorials/react-monorepo-tutorial?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
+This project follows the Nx monorepo structure, organizing applications and libraries for better maintainability and scalability.
 
-## Finish your CI setup
+## Technologies Used
 
-[Click here to finish setting up your workspace!](https://cloud.nx.app/connect/PHzs0dAUYm)
+- **React**: A JavaScript library for building user interfaces.
+- **Nrwl Nx**: A set of extensible dev tools for monorepos, which helps in managing and scaling the project.
+- **Tailwind CSS**: A utility-first CSS framework for styling the components.
+- **shadcn/ui**: A set of reusable UI components for consistent design.
+- **React Router**: A library for routing in React applications.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Vitest**: A Vite-native unit testing framework.
+- **Playwright**: An end-to-end testing framework.
 
-## Run tasks
+## Running the Project
 
-To run the dev server for your app, use:
+To run the development server for the `demo` app, use:
 
 ```sh
 npx nx serve demo
