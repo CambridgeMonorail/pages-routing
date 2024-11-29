@@ -5,5 +5,12 @@
   "projectType": "application",
   "tags": [],
   "// targets": "to see all targets run: nx show project demo --web",
-  "targets": {}
+  "targets": {
+    "type-check": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsc --noEmit"
+      }
+    }
+  }
 }
