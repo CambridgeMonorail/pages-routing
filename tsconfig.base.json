@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@pages-routing-test/shared": ["libs/shared/src/index.ts"]
+      "@pages-routing-test/shared": ["libs/shared/src/index.ts"],
+      "@pages-routing-test/shared/*": ["libs/shared/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
